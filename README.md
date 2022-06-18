@@ -1,6 +1,6 @@
 # Piboy-BT
 
-Es Theme for #batocera optimized for small screens -Piboy DMG inspiered
+Es Theme for batocera optimized for small screens -Piboy DMG inspiered
 
 Theme: Piboy-BT
 
