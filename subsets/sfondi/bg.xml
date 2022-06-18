@@ -10,5 +10,11 @@
       <path>./subsets/sfondi/bg.png</path>
       <zIndex>2</zIndex>
     </image>
+	<image name="arcadeled" extra="true">
+      <visible>false</visible>
+    </image>	
+	  <image name="arcadestrip" extra="true">
+      <visible>false</visible>
+    </image>	
 </view>		 
 </theme>

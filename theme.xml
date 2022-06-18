@@ -94,6 +94,25 @@
 			<zIndex>100</zIndex>	   
 		</image>
 
+  <image name="arcadeled" extra="true">
+      <size>1 1</size>
+      <pos>0.0 0</pos>
+      <origin>0 0</origin>
+      <tile>false</tile>
+      <path>./subsets/sfondi/arcadevideo2.png</path>
+	  <color>${accentColor}</color>
+      <zIndex>4</zIndex>
+    </image>
+
+  <image name="arcadestrip" extra="true">
+      <size>1 1</size>
+      <pos>0.0 0</pos>
+      <origin>0 0</origin>
+      <tile>false</tile>
+      <path>./subsets/sfondi/arcadevideo3.png</path>
+	  <color>${accentColor2t}</color>
+      <zIndex>4</zIndex>
+    </image>		
 	
 <!-- barra suggerimenti in basso -->
    <helpsystem name="help">

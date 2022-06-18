@@ -7,9 +7,38 @@
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
+      <tile>true</tile>
+      <path>./subsets/sfondi/bg3.jpg</path>
+      <zIndex>6</zIndex>
+    </image>	
+	
+	<image name="controllers" extra="true">
+      <size>0.45 0</size>
+      <pos>0.25 0.5</pos>
+	  <!--<rotation>-30</rotation>
+	  <rotationOrigin>0.5 0.5</rotationOrigin>-->
+      <origin>0.5 0.5</origin>
       <tile>false</tile>
-      <path>./subsets/sfondisistema/${system.theme}.jpg</path>
-      <zIndex>2</zIndex>
+	  <color>ffffff</color>
+      <path>./tema/controllers/${system.theme}.svg</path>
+      <zIndex>7</zIndex>
+    </image>	
+	
+	<image name="sistemi" extra="true">
+      <size>0.5 0</size>
+      <pos>0.73 0.3</pos>
+      <origin>0.5 0.5</origin>
+      <tile>false</tile>
+     <path>./tema/loghi/${system.theme}.svg</path>
+	 <color>ffffff</color>
+      <zIndex>99</zIndex>
+    </image>
+	
+	<image name="arcadeled" extra="true">
+      <visible>false</visible>
+    </image>
+	  <image name="arcadestrip" extra="true">
+      <visible>false</visible>
     </image>	
 	<!-- loghi emulatori -->
 <image name="logo">

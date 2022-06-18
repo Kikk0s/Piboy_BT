@@ -26,8 +26,9 @@
 	<include name="holes V3">./subsets/sfondi/bg5.xml</include>
 	<include name="metal">./subsets/sfondi/bg2.xml</include>
 	<include name="black">./subsets/sfondi/bg3.xml</include>
-	<include name="video">./subsets/sfondi/video.xml</include>
-	<include name="system">./subsets/sfondi/system.xml</include>
+	<include name="Fullscreen video">./subsets/sfondi/video.xml</include>
+	<include name="Arcade video frame">./subsets/sfondi/arcade.xml</include>
+	<include name="Controllers">./subsets/sfondi/system.xml</include>
 	</subset>
 
 

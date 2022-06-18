@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+   <include>./config.xml</include>
+   
+  <view name="system">
+    <image name="background" extra="true">
+      <color>000000ff</color>
+    </image>
+    <video name="backgroundvideo" extra="true">
+      <path>{random}</path>
+      <pos>0.505 0.3</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.36 0.36</maxSize>
+      <delay>0</delay>
+     <color>ffffffa0</color>
+      <effect>none</effect>
+      <zIndex>2</zIndex>
+    </video>
+    <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
+      <pos>0.5 0.5</pos>
+      <minSize>1 1</minSize>
+    </video>
+ 	  
+    <image name="CenterFade" extra="true">
+      <color>00000099</color>
+    </image> 
+    <image name="arcadevideo" extra="true">
+      <size>1 1</size>
+      <pos>0.0 0</pos>
+      <origin>0 0</origin>
+      <tile>false</tile>
+      <path>./subsets/sfondi/arcadevideo.png</path>
+      <zIndex>4</zIndex>
+    </image>
+
+  </view>
+</theme>
