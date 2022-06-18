@@ -1,10 +1,10 @@
 # Piboy-BT
 
-Es Theme for batocera optimized for small screens -Piboy DMG inspiered
+Es Theme for # batocera optimized for small screens -Piboy DMG inspiered
 
 Theme: Piboy-BT
 
-author: kikk0s
+Author: kikk0s
 
-controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
+Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
 
