@@ -28,7 +28,7 @@
 			<pos>0.5 0.3</pos>
 			<origin>0.5 0.3</origin>
 			<size>0.4 0</size>
-			<path>./tema/images/splashlogo.svg</path>
+			<path>./tema/images/splashlogo.png</path>
 			<!--<color>ffffff</color>-->
 			<zIndex>4</zIndex>
 		</image>
@@ -37,7 +37,7 @@
 			<pos>0.5 0.3</pos>
 			<origin>0.5 0.3</origin>
 			<size>0.4 0</size>
-			<path>./tema/images/splashaccento1.svg</path>
+			<path>./tema/images/splashaccento1.png</path>
 			<color>${accentColor}</color>
 			<zIndex>2</zIndex>
 		</image>
@@ -45,7 +45,7 @@
 			<pos>0.5 0.3</pos>
 			<origin>0.5 0.3</origin>
 			<size>0.4 0</size>
-			<path>./tema/images/splashaccento2.svg</path>
+			<path>./tema/images/splashaccento2.png</path>
 			<color>${accentColor2}</color>
 			<zIndex>3</zIndex>
 		</image>

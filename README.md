@@ -16,6 +16,9 @@ Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
 * over 100 system themed
 * video support
 * customizations & configurable theme settings
+* splashscreen
+* video boot loading(inside extra folder)
+
 
 
 ### Configurable theme settings
