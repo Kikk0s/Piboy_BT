@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <variables>
+     <accentColor>f88104</accentColor>
+	 <accentColor2>0b5394</accentColor2>
+	 <accentColor2t>0b539497</accentColor2t>
+  </variables>
+</theme>

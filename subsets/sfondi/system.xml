@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+
+<view name="system">
+     <image name="background" extra="true">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <tile>false</tile>
+      <path>./subsets/sfondisistema/${system.theme}.jpg</path>
+      <zIndex>2</zIndex>
+    </image>	
+	<!-- loghi emulatori -->
+<image name="logo">
+			<visible>false</visible>
+		</image>
+		
+<!-- simulazione logo testuale per loghi non presenti -->	
+<text name="logoText" >
+            <visible>false</visible>
+         </text>
+</view>		
+</theme>

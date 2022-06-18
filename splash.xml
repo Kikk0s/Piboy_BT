@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<!-- Configurazione tema --> 
+   <include>./config.xml</include>
+	
+	<view name="splash">
+		<splash name="splash">
+			<backgroundColor>000000</backgroundColor>
+		</splash>
+		<image name="progressbar">
+			<origin>0 0</origin>
+			<pos>0.25 0.87</pos>
+			<size>0.5 0.036</size>
+			<color>${accentColor2}</color>
+			<colorEnd>${accentColor2}</colorEnd>
+		</image>
+		
+		<image name="progressbar:active">
+			<origin>0 0</origin>
+			<pos>0.25 0.87</pos>
+			<size>0.5 0.036</size>
+			<color>${accentColor}</color>
+			<colorEnd>${accentColor}</colorEnd>
+		</image>
+	<image name="background" extra="true">
+			<pos>0.5 0.3</pos>
+			<origin>0.5 0.3</origin>
+			<size>0.4 0</size>
+			<path>./tema/images/splashlogo.png</path>
+			<!--<color>ffffff</color>-->
+			<zIndex>4</zIndex>
+		</image>
+		
+		<image name="splashaccento1" extra="true">
+			<pos>0.5 0.3</pos>
+			<origin>0.5 0.3</origin>
+			<size>0.4 0</size>
+			<path>./tema/images/splashaccento1.png</path>
+			<color>${accentColor}</color>
+			<zIndex>2</zIndex>
+		</image>
+		<image name="splashaccento2" extra="true">
+			<pos>0.5 0.3</pos>
+			<origin>0.5 0.3</origin>
+			<size>0.4 0</size>
+			<path>./tema/images/splashaccento2.png</path>
+			<color>${accentColor2}</color>
+			<zIndex>3</zIndex>
+		</image>
+		<text name="label">
+			<color>FFFFFFFF</color>
+		</text>
+	</view>
+</theme>

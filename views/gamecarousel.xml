@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+	
+	<include>./config.xml</include>
+
+ <view name="gamecarousel">
+    <gamecarousel name="gamecarousel">
+      <!--<type>vertical_wheel</type>-->
+	  <logoAlignment>left</logoAlignment> 
+      <pos>0.05 0</pos>
+      <size>0.5 0.9</size>
+	   <logoScale>1.4</logoScale>
+	  <maxLogoCount>3</maxLogoCount>
+      <scrollSound>./tema/sounds/Move.wav</scrollSound>	  
+      <zIndex>101</zIndex>
+    </gamecarousel> 
+	<text name="gamecarouselLogoText">
+        <color>${accentColor}</color>
+		<fontPath>./tema/fonts/SnesItalic.ttf</fontPath>
+	     <fontSize>0.07</fontSize>	  
+		<lineSpacing>1</lineSpacing>
+		 <zIndex>102</zIndex>
+		 <forceUppercase>1</forceUppercase>
+    </text>
+	</view>
+	
+</theme>
+
+

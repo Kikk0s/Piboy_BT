@@ -1,0 +1,50 @@
+<theme>
+    <formatVersion>7</formatVersion>
+
+<!--Carosello -->
+	<subset subset="systemview" name="Carousel">
+	<include name="wheel">./subsets/carosello/wheel.xml</include>
+	<include name="vertical">./subsets/carosello/vertical.xml</include>
+	<include name="horizontal">./subsets/carosello/horizontal.xml</include>
+	</subset>
+
+	<subset name="Carousel images source" appliesTo="gamecarousel">
+	<include name="text">./subsets/carosellogiochi/testo.xml</include>
+	<include name="marquee">./subsets/carosellogiochi/marquee.xml</include>
+	</subset>
+	
+	<subset name="Game Carousel Style" appliesTo="gamecarousel">
+	<include name="Vertical">./subsets/carosellogiochi/vertical.xml</include>
+	<include name="Wheel">./subsets/carosellogiochi/wheel.xml</include>
+	</subset>
+
+<!--Sfondi -->
+	<subset subset="systemview" name="Custom Background">
+	<include name="hexagon">./subsets/sfondi/bg.xml</include>
+	<include name="holes">./subsets/sfondi/bg1.xml</include>
+	<include name="holes V2">./subsets/sfondi/bg4.xml</include>
+	<include name="holes V3">./subsets/sfondi/bg5.xml</include>
+	<include name="metal">./subsets/sfondi/bg2.xml</include>
+	<include name="black">./subsets/sfondi/bg3.xml</include>
+	<include name="video">./subsets/sfondi/video.xml</include>
+	<include name="system">./subsets/sfondi/system.xml</include>
+	</subset>
+
+
+<!--Schema colori -->	
+	<subset subset="colorset" name="Color set">
+	<include name="Piboy">./subsets/colors/piboy.xml</include>
+	<include name="Orange Blue">./subsets/colors/orange_blue.xml</include>
+	<include name="Sand Brown">./subsets/colors/sand_brown.xml</include>
+	<include name="Yellow Green">./subsets/colors/yellow_green.xml</include>
+	<include name="Yellow Gray">./subsets/colors/yellow_gray.xml</include>
+	<include name="White Blue">./subsets/colors/white_blue.xml</include>
+	<include name="White Red">./subsets/colors/white_red.xml</include>
+	<include name="White Gray">./subsets/colors/white_gray.xml</include>
+	</subset>
+
+
+	
+</theme>
+
+

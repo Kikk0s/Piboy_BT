@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+
+<view name="system">
+    <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+        <pos>0.02 0</pos>
+		<origin>0 0</origin>
+        <logoAlignment>left</logoAlignment>         
+        <size>0.6 0.9</size>
+        <logoScale>2.5</logoScale>    
+        <logoSize>0.2 0.1</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>3</maxLogoCount>
+		<zIndex>98</zIndex>	
+      </carousel>
+
+<!-- informazioni numero di rom presenti in un sistema -->
+<text name="systemInfo">     
+         <pos>0.70 0.65</pos>
+		 <origin>0.5 0.5</origin>
+		 <size>0.5 0.069</size>
+         <fontPath>./tema/fonts/SnesItalic.ttf</fontPath>
+	     <fontSize>0.11</fontSize>
+		 <backgroundColor>00000000</backgroundColor>
+		 <zIndex>101</zIndex>	
+		</text> 
+
+<!-- grafiche in aggiunta sulla home -->
+
+<image name="background2" extra="true">
+			<tile>true</tile>
+			 <pos>0 0</pos>
+		     <size>1 1</size>
+			<path>./tema/images/bg.png</path>
+			<color>00000080</color>
+			<zIndex>98</zIndex>	   
+</image>		
+
+<image name="systeminfosfondo" extra="true">
+			 <pos>0.45 0.65</pos>
+		     <size>0.65 0.1</size> 
+		</image>
+
+</view>	
+</theme>
