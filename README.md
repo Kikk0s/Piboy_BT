@@ -8,7 +8,7 @@ Author: kikk0s
 
 Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
 
-![view](https://imgur.com/pPglGxv)
+![view](https://i.imgur.com/pPglGxv.png)
 
 
 
