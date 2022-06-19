@@ -128,7 +128,18 @@
 <!-- Stile lista rom -->	
 
 <!-- loghi di sistema -->
-<view name="detailed, video,grid,gamecarousel">
+<view name="detailed, video,gamecarousel">
+                <image name="system" extra="true">
+                   <origin>0.5 0.5</origin>
+                   <pos>0.25 0.12</pos>
+                   <maxSize>0.25 0.1</maxSize>
+                   <path>./tema/loghi/${system.theme}.svg</path>
+				   <color>000000</color>
+                   <zIndex>3</zIndex>            
+                </image>
+</view>	
+
+<view name="grid">
                 <image name="system" extra="true">
                    <origin>0.5 0.5</origin>
                    <pos>0.75 0.17</pos>
@@ -142,8 +153,8 @@
 <view name="basic">
                 <image name="system" extra="true">
                    <origin>0.5 0</origin>
-                   <pos>0.5 0.02</pos>
-                   <maxSize>0.8 .12</maxSize>
+                   <pos>0.5 0.08</pos>
+                   <maxSize>0.6 .1</maxSize>
                    <path>./tema/loghi/${system.theme}.svg</path>
 				   <color>000000</color>
                    <zIndex>3</zIndex>            
@@ -181,8 +192,8 @@
 <view name="basic">
       <!-- layout lista giochi -->
       <textlist name="gamelist">                          
-         <pos>0.025 0.2</pos>
-         <size>0.95 0.72</size>
+         <pos>0.025 0.22</pos>
+         <size>0.95 0.70</size>
          <alignment>center</alignment>                       
       </textlist>
 	  <!-- sfondo lista giochi -->
@@ -204,19 +215,70 @@
 			 <color>000000</color>
 			<zIndex>2</zIndex>	   
 	</image>	
-	<image name="white" extra="true">
-			<tile>true</tile>
-			<size>0.98 0.2</size>
-			<pos>0.01 0</pos>
-			<path>./tema/images/white.png</path>
-			 <color>${accentColor2}</color>
+	
+	 <image name="barra" extra="true">
+			<tile>false</tile>
+			 <origin>0 0</origin>
+             <pos>0.0 0.0</pos>
+			 <size>1 0.2</size>
+			<path>./subsets/carosello/linee2.png</path>
+			<color>${accentColor2}</color>
 			<zIndex>2</zIndex>	   
 		</image>
 </view> 
 
-<!-- lista giochi sfondo viste detailed,video,grid-->   
+<!-- lista giochi sfondo viste detailed,video,gamecarousel-->   
     
-  <view name="detailed,video,grid,gamecarousel">
+  <view name="detailed,video,gamecarousel">
+       <!-- sfondo lista giochi -->
+      <image name="background" extra="true">
+       <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./tema/images/bg.png</path>
+         <zIndex>1</zIndex>    
+      </image>     
+	 <!-- grafiche aggiuntive sfondo-->
+	 <image name="barra" extra="true">
+			<tile>false</tile>
+			 <origin>0.5 0.5</origin>
+             <pos>0.225 0.12</pos>
+			 <maxSize>0.55 0.2</maxSize>
+			<path>./subsets/carosello/linee2.png</path>
+			<color>${accentColor2}</color>
+			<zIndex>1</zIndex>	   
+		</image>	
+
+	<image name="line" extra="true">
+			<tile>true</tile>
+			<size>0.52 0.002</size>
+			<pos>0.50 0.2</pos>
+			<path>./tema/images/white.png</path>
+			 <color>${accentColor2t}</color>
+			<zIndex>2</zIndex>	   
+		</image>
+		
+	<image name="line2" extra="true">
+			<tile>true</tile>
+			<size>0.52 0.002</size>
+			<pos>0.50 0.40</pos>
+			<path>./tema/images/white.png</path>
+			 <color>${accentColor2t}</color>
+			<zIndex>2</zIndex>	   
+		</image>
+		
+	<image name="line3" extra="true">
+			<tile>true</tile>
+			<size>0.52 0.002</size>
+			<pos>0.50 0.90</pos>
+			<path>./tema/images/white.png</path>
+			 <color>${accentColor2t}</color>
+			<zIndex>2</zIndex>	   
+		</image>
+</view>     
+<!-- lista giochi sfondo grid--> 
+  <view name="grid">
        <!-- sfondo lista giochi -->
       <image name="background" extra="true">
        <tile>true</tile>
@@ -235,17 +297,8 @@
 			<path>./subsets/carosello/linee.png</path>
 			<color>${accentColor2}</color>
 			<zIndex>1</zIndex>	   
-		</image>	
-
-	<image name="line" extra="true">
-			<tile>true</tile>
-			<size>0.52 0.002</size>
-			<pos>0.50 0.90</pos>
-			<path>./tema/images/white.png</path>
-			 <color>${accentColor2t}</color>
-			<zIndex>2</zIndex>	   
 		</image>
-
+		
 	<image name="line2" extra="true">
 			<tile>true</tile>
 			<size>0.52 0.002</size>
@@ -254,21 +307,30 @@
 			 <color>${accentColor2t}</color>
 			<zIndex>2</zIndex>	   
 		</image>
-</view>     
+		
+	<image name="line3" extra="true">
+			<tile>true</tile>
+			<size>0.52 0.002</size>
+			<pos>0.50 0.90</pos>
+			<path>./tema/images/white.png</path>
+			 <color>${accentColor2t}</color>
+			<zIndex>2</zIndex>	   
+		</image>
 
+</view>     
 <!-- lista giochi immagini,video e informazioni testuali-->     
 
 <view name="detailed, video">
 		<!-- layout lista giochi -->
 		<textlist name="gamelist">                          
-          <pos>0.025 0.07</pos>
-         <size>0.45 0.875</size>
+          <pos>0.025 0.22</pos>
+         <size>0.45 0.725</size>
          <alignment>left</alignment>                       
       </textlist>
 	      
 </view>
   <!-- layout immagine gioco -->
- <view name="detailed,gamecarousel">
+ <view name="detailed">
       <image name="md_image">
          <origin>0.5 0.5</origin>
          <pos>0.76 0.65</pos>
@@ -292,8 +354,128 @@
       </video>         
    </view>
 </feature>
-<view name="detailed,video,grid,gamecarousel">
+<view name="detailed,video,gamecarousel">
       <!-- rating gioco-->	
+      <rating name="md_rating">
+         <origin>0.5 0.5</origin>
+         <zIndex>5</zIndex>       
+         <pos>0.875 0.16</pos>
+         <size>0.03 0.03</size>
+         <zIndex>3</zIndex>
+         <filledPath>./tema/images/star_full.svg</filledPath>
+         <unfilledPath>./tema/images/star_hollow.svg</unfilledPath>
+		 <color>${accentColor}</color>
+    </rating>
+	<!-- testo introduttivo sviluppatore gioco-->	
+      <text name="md_lbl_developer">
+         <origin>0.5 0.5</origin>
+		 <fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
+		 <fontSize>0.03</fontSize>
+         <pos>0.825 0.12</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex> 
+      </text>
+	  <!-- sviluppatore gioco-->	
+      <text name="md_developer">
+         <origin>0.5 0.5</origin>
+         <pos>0.99 0.12</pos>
+         <size>0.6 0.6</size>
+		 <fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
+		 <fontSize>0.03</fontSize>
+         <color>ffffff</color>
+         <zIndex>3</zIndex>
+      </text>
+	  <!-- testo introduttivo data di rilascio gioco-->	
+      <text name="md_lbl_releasedate">
+         <origin>0.5 0.5</origin>
+         <pos>0.825 0.16</pos>
+         <size>0.6 0.6</size>
+		 <fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
+		 <fontSize>0.03</fontSize>
+         <color>ffffff</color>
+         <zIndex>3</zIndex>                  
+      </text>
+	   <!-- data di rilascio gioco-->	
+      <datetime name="md_releasedate">
+         <origin>0.5 0.5</origin>
+         <pos>0.99 0.16</pos>
+         <size>0.6 0.6</size>
+		 <fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
+		 <fontSize>0.03</fontSize>
+         <color>ffffff</color>
+         <zIndex>3</zIndex>         
+      </datetime>
+	  <!-- layout descrizione gioco -->	
+		<text name="md_description">
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<size>0.42 0.15</size>
+			<origin>0.5 0</origin>
+            <pos>0.74 0.22</pos>
+		</text>
+</view>
+   
+<view name="grid">
+         <!-- layout vista a griglia-->	
+		<image name="header" extra="true">
+			<path>null</path>
+		</image>
+		
+		<text name="gridtile">
+			<color>ffffff80</color>
+			<backgroundColor>00000000</backgroundColor>
+			<fontSize>0.025</fontSize>
+			<fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
+			 <forceUppercase>1</forceUppercase>
+			<alignment>center</alignment>
+			<size>1 0.24</size>
+		</text>
+		<text name="gridtile_selected">
+			<color>000000</color>
+			<glowColor>${accentColor}</glowColor>
+			<forceUppercase>1</forceUppercase>
+			<glowSize>2</glowSize>
+		</text>
+
+		<text name="md_grid">
+			<size>0.50 0.50</size>
+			<pos>0.01 0.01</pos>
+		</text>
+		<imagegrid name="gamegrid">
+			<pos>0.01 0.05</pos>
+			<size>0.5 0.85</size>
+			<margin>0.01 0.01</margin>
+			<autoLayout>1 2</autoLayout>
+		</imagegrid>
+        <gridtile name="default">
+			<backgroundImage>./tema/images/bg.png</backgroundImage>
+			<backgroundColor>000000</backgroundColor>
+		</gridtile>
+		<!-- layout nome gioco-->	
+		<!--<text name="md_name">
+			<pos>0.25 0.05</pos>
+			<size>0.48 0.05</size>
+			<origin>0.5 0</origin>
+		    <fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
+            <fontSize>0.035</fontSize>
+            <forceUppercase>1</forceUppercase>
+			<color>000000</color>
+			<backgroundColor>${accentColor}</backgroundColor>
+		</text> -->
+		<!-- layout descrizione gioco -->	
+		<text name="md_description">
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.42 0.42</size>
+			<origin>0.5 0.5</origin>
+            <pos>0.74 0.65</pos>
+		</text>
+		  <!-- rating gioco-->	
       <rating name="md_rating">
          <origin>0.5 0.5</origin>
          <zIndex>5</zIndex>       
@@ -344,48 +526,6 @@
          <color>ffffff</color>
          <zIndex>3</zIndex>         
       </datetime>
-</view>
-   
-<view name="grid">
-         <!-- layout vista a griglia-->	
-		<image name="header" extra="true">
-			<path>null</path>
-		</image>
-		<text name="md_grid">
-			<size>0.48 0.90</size>
-			<pos>0.01 0.03</pos>
-		</text>
-		<imagegrid name="gamegrid">
-			<pos>0.01 0.1</pos>
-			<size>0.48 0.8</size>
-			<margin>0.01 0.01</margin>
-			<autoLayout>1 2</autoLayout>
-		</imagegrid>
-        <gridtile name="default">
-			<backgroundImage>./tema/images/bg.png</backgroundImage>
-			<backgroundColor>000000</backgroundColor>
-		</gridtile>
-		<!-- layout nome gioco-->	
-		<text name="md_name">
-			<pos>0.25 0.05</pos>
-			<size>0.48 0.05</size>
-			<origin>0.5 0</origin>
-		    <fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
-            <fontSize>0.035</fontSize>
-            <forceUppercase>1</forceUppercase>
-			<color>000000</color>
-			<backgroundColor>${accentColor}</backgroundColor>
-		</text>
-		<!-- layout descrizione gioco -->	
-		<text name="md_description">
-			<color>ffffff</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
-			<fontSize>0.03</fontSize>
-			<size>0.42 0.42</size>
-			<origin>0.5 0.5</origin>
-            <pos>0.74 0.65</pos>
-		</text>
 	</view>
 
 </theme>
