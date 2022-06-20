@@ -16,7 +16,8 @@
         <logoSize>0.2 0.1</logoSize>
         <color>00000000</color>
         <maxLogoCount>1</maxLogoCount>
-		<zIndex>98</zIndex>	
+		<zIndex>98</zIndex>
+		<systemInfoDelay>700</systemInfoDelay>
       </carousel>
 <!-- informazioni numero di rom presenti in un sistema-->
 <text name="systemInfo">     
