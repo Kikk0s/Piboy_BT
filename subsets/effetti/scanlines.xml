@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+<view name="system">
+     <image name="effects" extra="true">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <tile>true</tile>
+      <path>./subsets/effetti/scanlines.png</path>
+      <zIndex>102</zIndex>
+    </image>
+</view>	
+<view name="detailed,basic, video, gamecarousel">
+
+					<image name="effects2" extra="true">
+				  <size>0.5 0.6</size>
+				  <pos>0.5 0.4</pos>
+				  <origin>0 0</origin>
+				  <tile>true</tile>
+				  <path>./subsets/effetti/scanlines.png</path>
+				  <zIndex>102</zIndex>
+				</image>
+</view>
+			 
+</theme>

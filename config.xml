@@ -44,8 +44,13 @@
 	<include name="White Gray">./subsets/colors/white_gray.xml</include>
 	</subset>
 
+<!--effetti -->
+	<subset subset="effects" name="Effects">
+	<include name="No effects">./subsets/effetti/noeffect.xml</include>
+	<include name="Pixelate">./subsets/effetti/pixelate.xml</include>
+	<include name="Scanlines">./subsets/effetti/scanlines.xml</include>
 
-	
+	</subset>
 </theme>
 
 
