@@ -91,7 +91,7 @@
 			<tile>false</tile>
 			<path>./subsets/carosello/linee.png</path>
 			<color>${accentColor2}</color>
-			<zIndex>100</zIndex>	   
+			<zIndex>100</zIndex>				
 		</image>
 
   <image name="arcadeled" extra="true">
@@ -101,7 +101,7 @@
       <tile>false</tile>
       <path>./subsets/sfondi/arcadevideo2.png</path>
 	  <color>${accentColor}</color>
-      <zIndex>4</zIndex>
+      <zIndex>99</zIndex>
     </image>
 
   <image name="arcadestrip" extra="true">
@@ -111,7 +111,7 @@
       <tile>false</tile>
       <path>./subsets/sfondi/arcadevideo3.png</path>
 	  <color>${accentColor2t}</color>
-      <zIndex>4</zIndex>
+      <zIndex>99</zIndex>
     </image>		
 	
 <!-- barra suggerimenti in basso -->
@@ -135,7 +135,7 @@
                    <maxSize>0.25 0.1</maxSize>
                    <path>./tema/loghi/${system.theme}.svg</path>
 				   <color>000000</color>
-                   <zIndex>3</zIndex>            
+                   <zIndex>4</zIndex>            
                 </image>
 </view>	
 
@@ -146,7 +146,7 @@
                    <maxSize>0.25 0.1</maxSize>
                    <path>./tema/loghi/${system.theme}.svg</path>
 				   <color>000000</color>
-                   <zIndex>3</zIndex>            
+                   <zIndex>4</zIndex>            
                 </image>
 </view>	
 
@@ -157,7 +157,7 @@
                    <maxSize>0.6 .1</maxSize>
                    <path>./tema/loghi/${system.theme}.svg</path>
 				   <color>000000</color>
-                   <zIndex>3</zIndex>            
+                   <zIndex>4</zIndex>            
                 </image>
 </view>		
 
@@ -223,7 +223,7 @@
 			 <size>1 0.2</size>
 			<path>./subsets/carosello/linee2.png</path>
 			<color>${accentColor2}</color>
-			<zIndex>2</zIndex>	   
+			<zIndex>3</zIndex>				
 		</image>
 </view> 
 
@@ -244,10 +244,11 @@
 			<tile>false</tile>
 			 <origin>0.5 0.5</origin>
              <pos>0.225 0.12</pos>
-			 <maxSize>0.55 0.2</maxSize>
+			 <size>0.55 0.15</size>
 			<path>./subsets/carosello/linee2.png</path>
 			<color>${accentColor2}</color>
-			<zIndex>1</zIndex>	   
+			<zIndex>3</zIndex>	
+			
 		</image>	
 
 	<image name="line" extra="true">
@@ -256,7 +257,7 @@
 			<pos>0.50 0.2</pos>
 			<path>./tema/images/white.png</path>
 			 <color>${accentColor2t}</color>
-			<zIndex>2</zIndex>	   
+			<zIndex>2</zIndex>				
 		</image>
 		
 	<image name="line2" extra="true">
@@ -265,7 +266,7 @@
 			<pos>0.50 0.40</pos>
 			<path>./tema/images/white.png</path>
 			 <color>${accentColor2t}</color>
-			<zIndex>2</zIndex>	   
+			<zIndex>2</zIndex>					
 		</image>
 		
 	<image name="line3" extra="true">
@@ -296,7 +297,7 @@
 			 <maxSize>0.55 0.2</maxSize>
 			<path>./subsets/carosello/linee.png</path>
 			<color>${accentColor2}</color>
-			<zIndex>1</zIndex>	   
+			<zIndex>3</zIndex>				
 		</image>
 		
 	<image name="line2" extra="true">
@@ -305,7 +306,7 @@
 			<pos>0.50 0.40</pos>
 			<path>./tema/images/white.png</path>
 			 <color>${accentColor2t}</color>
-			<zIndex>2</zIndex>	   
+			<zIndex>2</zIndex>					
 		</image>
 		
 	<image name="line3" extra="true">
@@ -314,7 +315,7 @@
 			<pos>0.50 0.90</pos>
 			<path>./tema/images/white.png</path>
 			 <color>${accentColor2t}</color>
-			<zIndex>2</zIndex>	   
+			<zIndex>2</zIndex>				
 		</image>
 
 </view>     
@@ -527,5 +528,4 @@
          <zIndex>3</zIndex>         
       </datetime>
 	</view>
-
 </theme>

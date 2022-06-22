@@ -13,7 +13,7 @@
       <pos>0.505 0.3</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.36 0.36</maxSize>
-      <delay>0</delay>
+      <delay>1</delay>
      <color>ffffffa0</color>
       <effect>none</effect>
       <zIndex>2</zIndex>

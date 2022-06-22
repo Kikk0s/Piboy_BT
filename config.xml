@@ -49,8 +49,14 @@
 	<include name="No effects">./subsets/effetti/noeffect.xml</include>
 	<include name="Pixelate">./subsets/effetti/pixelate.xml</include>
 	<include name="Scanlines">./subsets/effetti/scanlines.xml</include>
-
 	</subset>
+	
+<!--animazioni -->
+	<subset subset="animations" name="Animations">
+	<include name="animations">./subsets/animazioni/animations.xml</include>
+	<include name="No animations">./subsets/animazioni/noanimations.xml</include>
+	</subset>
+	
 </theme>
 
 
