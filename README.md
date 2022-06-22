@@ -29,6 +29,8 @@ Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
 * Game carousel image source: Text - Marquee
 * Backgrounds: Hexagon - Holes - Holes V2 - Holes V3 - Metal - Black - Fullscreen Video - Arcade video frame - Controllers
 * Colors set: 8 sets
+* Video effects: scanlines, pixelate
+* Custom animations
 
 
 
