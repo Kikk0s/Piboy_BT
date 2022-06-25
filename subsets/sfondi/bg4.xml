@@ -17,5 +17,18 @@
 	<image name="arcadestrip" extra="true">
       <visible>false</visible>
     </image>
+	 <video name="backgroundvideo" extra="true">
+       <visible>false</visible>
+    </video>
+    <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
+      <visible>false</visible>
+    </video>
+ 	  
+    <image name="CenterFade" extra="true">
+     <visible>false</visible>
+    </image> 
+    <image name="arcadevideo" extra="true">
+      <visible>false</visible>
+    </image>	
 </view>		
 </theme>

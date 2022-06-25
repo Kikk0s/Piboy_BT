@@ -23,14 +23,12 @@ Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
 
 ### Configurable theme settings
 
-* Carousel: Wheel - Vertical - Horizontal
+* Carousel: Wheel - Vertical - Horizontal - Controllers
 * Rom list style: Detailed - base - grid - game carousel
-* Game carousel: Vertical - Wheel
+* Game carousel: Vertical - Wheel 
 * Game carousel image source: Text - Marquee
-* Backgrounds: Hexagon - Holes - Holes V2 - Holes V3 - Metal - Black - Fullscreen Video - Arcade video frame - Controllers
+* Backgrounds: Hexagon - Holes - Holes V2 - Holes V3 - Metal - Black - Fullscreen Video - Arcade video frame
 * Colors set: 8 sets
-* Video effects: scanlines, pixelate
-* Custom animations
 
 
 

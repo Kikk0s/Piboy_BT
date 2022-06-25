@@ -19,7 +19,7 @@
 
 <!-- informazioni numero di rom presenti in un sistema -->
 <text name="systemInfo">     
-         <pos>0.70 0.65</pos>
+         <pos>0.70 0.75</pos>
 		 <origin>0.5 0.5</origin>
 		 <size>0.5 0.069</size>
          <fontPath>./tema/fonts/SnesItalic.ttf</fontPath>
@@ -40,9 +40,31 @@
 </image>		
 
 <image name="systeminfosfondo" extra="true">
-			 <pos>0.45 0.65</pos>
+			 <pos>0.45 0.75</pos>
 		     <size>0.65 0.1</size> 
 		</image>
+
+ <video name="backgroundvideo" extra="true">
+      <pos>0.685 0.34</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.34 0.34</maxSize>
+    </video>
+    <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
+      <pos>0.68 0.54</pos>
+      <minSize>1 1</minSize>
+    </video>
+ 	  
+ <image name="arcadeled" extra="true">
+      <size>1 1</size>
+      <pos>0.18 0</pos>
+      <origin>0 0</origin>
+    </image>
+
+  <image name="arcadestrip" extra="true">
+      <size>1 1</size>
+      <pos>0.18 0</pos>
+      <origin>0 0</origin>
+    </image>		
 
 </view>	
 </theme>

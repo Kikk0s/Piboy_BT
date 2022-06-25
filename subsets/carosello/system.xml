@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+
+<view name="system">
+    <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+        <pos>0.02 0</pos>
+		<origin>0 0</origin>
+        <logoAlignment>left</logoAlignment>         
+        <size>0.6 0.9</size>
+        <logoScale>2.5</logoScale>    
+        <logoSize>0.2 0.1</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>3</maxLogoCount>
+		<zIndex>0</zIndex>
+		<systemInfoDelay>700</systemInfoDelay>		
+      </carousel>
+
+<!-- informazioni numero di rom presenti in un sistema -->
+<text name="systemInfo">     
+         <pos>0.70 0.65</pos>
+		 <origin>0.5 0.5</origin>
+		 <size>0.5 0.069</size>
+         <fontPath>./tema/fonts/SnesItalic.ttf</fontPath>
+	     <fontSize>0.11</fontSize>
+		 <backgroundColor>00000000</backgroundColor>
+		 <zIndex>101</zIndex>	
+		</text> 
+
+<!-- grafiche in aggiunta sulla home -->
+
+
+<image name="background2" extra="true">
+			<tile>true</tile>
+			 <pos>0 0</pos>
+		     <size>1 1</size>
+			<path>./tema/images/bg.png</path>
+			<color>000000</color>
+			<zIndex>1</zIndex>	   
+</image>	
+
+<image name="background3" extra="true">
+			<tile>true</tile>
+			 <pos>0 0</pos>
+		     <size>1 1</size>
+			<path>./tema/images/bg.png</path>
+			<color>00000080</color>
+			<zIndex>98</zIndex>	   
+</image>			
+
+<image name="systeminfosfondo" extra="true">
+			 <pos>0.45 0.65</pos>
+		     <size>0.65 0.1</size> 
+		</image>
+
+ <video name="backgroundvideo" extra="true">
+		<visible>false</visible>
+    </video>
+	
+    <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
+		<visible>false</visible>
+    </video>
+ 	  
+	<image name="controllers" extra="true">
+	  <maxSize>0.40 0.40</maxSize>
+      <pos>0.25 0.5</pos>
+	  <!--<rotation>-30</rotation>
+	  <rotationOrigin>0.5 0.5</rotationOrigin>-->
+      <origin>0.5 0.5</origin>
+      <tile>false</tile>
+	  <color>ffffff</color>
+      <path>./tema/controllers/${system.theme}.svg</path>
+      <zIndex>7</zIndex>
+    </image>	
+	
+	<image name="sistemi" extra="true">
+      <size>0.5 0</size>
+      <pos>0.73 0.3</pos>
+      <origin>0.5 0.5</origin>
+      <tile>false</tile>
+     <path>./tema/loghi/${system.theme}.svg</path>
+	 <color>ffffff</color>
+      <zIndex>99</zIndex>
+    </image>
+	
+	<image name="arcadeled" extra="true">
+      <visible>false</visible>
+    </image>
+	  <image name="arcadestrip" extra="true">
+      <visible>false</visible>
+    </image>	
+	<!-- loghi emulatori -->
+<image name="logo">
+			<visible>false</visible>
+		</image>
+		
+<!-- simulazione logo testuale per loghi non presenti -->	
+<text name="logoText" >
+            <visible>false</visible>
+         </text>
+</view>		
+</theme>

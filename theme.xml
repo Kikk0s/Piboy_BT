@@ -48,7 +48,7 @@
       <selectorColor>${accentColor}</selectorColor>
       <selectorColorEnd>${accentColor}</selectorColorEnd>
       <selectedColor>000000</selectedColor>
-      <separatorColor>${accentColor2t}</separatorColor>
+      <separatorColor>26262650</separatorColor>
 	  <fontSize>0.035</fontSize>
 </menuText>
 <menuTextSmall name="menutextsmall">
@@ -71,7 +71,7 @@
 <!-- loghi emulatori -->
 <image name="logo">
 			<path>./tema/loghi/${system.theme}.svg</path>
-			<color>ffffff</color>
+			<color>ffffff</color>		
 		</image>
 		
 <!-- simulazione logo testuale per loghi non presenti -->	
@@ -94,25 +94,24 @@
 			<zIndex>100</zIndex>				
 		</image>
 
+
+
   <image name="arcadeled" extra="true">
-      <size>1 1</size>
-      <pos>0.0 0</pos>
-      <origin>0 0</origin>
       <tile>false</tile>
-      <path>./subsets/sfondi/arcadevideo2.png</path>
-	  <color>${accentColor}</color>
+      <path>./subsets/sfondi/arcadeled.png</path>
+	  <color>${accentColor2}</color>
+	  <!--<glowColor>${accentColor}</glowColor>
+      <glowSize>3</glowSize>
+      <glowOffset>1 1</glowOffset> -->
       <zIndex>99</zIndex>
     </image>
 
   <image name="arcadestrip" extra="true">
-      <size>1 1</size>
-      <pos>0.0 0</pos>
-      <origin>0 0</origin>
       <tile>false</tile>
-      <path>./subsets/sfondi/arcadevideo3.png</path>
-	  <color>${accentColor2t}</color>
-      <zIndex>99</zIndex>
-    </image>		
+      <path>./subsets/sfondi/arcadestrip.png</path>
+	 <!--<color>${accentColor2}</color> -->
+      <zIndex>5</zIndex>
+    </image>			
 	
 <!-- barra suggerimenti in basso -->
    <helpsystem name="help">
@@ -128,7 +127,7 @@
 <!-- Stile lista rom -->	
 
 <!-- loghi di sistema -->
-<view name="detailed, video,gamecarousel">
+<view name="detailed, video,gamecarousel,basic">
                 <image name="system" extra="true">
                    <origin>0.5 0.5</origin>
                    <pos>0.25 0.12</pos>
@@ -136,7 +135,7 @@
                    <path>./tema/loghi/${system.theme}.svg</path>
 				   <color>000000</color>
                    <zIndex>4</zIndex>            
-                </image>
+                </image>	
 </view>	
 
 <view name="grid">
@@ -150,24 +149,15 @@
                 </image>
 </view>	
 
-<view name="basic">
-                <image name="system" extra="true">
-                   <origin>0.5 0</origin>
-                   <pos>0.5 0.08</pos>
-                   <maxSize>0.6 .1</maxSize>
-                   <path>./tema/loghi/${system.theme}.svg</path>
-				   <color>000000</color>
-                   <zIndex>4</zIndex>            
-                </image>
-</view>		
+	
 
 <!-- barra suggerimenti in basso -->
    <view name="detailed,video,basic,grid,gamecarousel">
       <helpsystem name="help">
           <fontPath>./tema/fonts/SnesItalic.ttf</fontPath>
-	     <fontSize>0.035</fontSize>
-		 <pos>0.05 0.95</pos>
-		 <origin>0.0 0.0</origin>
+	     <fontSize>0.03</fontSize>
+		  <pos>0.53 0.95</pos>
+		 <origin>0.5 0.5</origin>
          <textColor>ffffff97</textColor>
          <iconColor>ffffff97</iconColor>
       </helpsystem>
@@ -204,27 +194,46 @@
          <size>1 1</size>
          <path>./tema/images/bg.png</path>
 		 <color>000000</color>
-         <zIndex>2</zIndex>    
+        <zIndex>1</zIndex> 
 	</image>
     <!-- grafiche aggiuntive sfondo-->
-	<image name="dark" extra="true">
-			<tile>true</tile>
-			<pos>0.025 0.05</pos>
-			<size>0.95 0.88</size>
-			<path>./tema/images/dark.png</path>
-			 <color>000000</color>
-			<zIndex>2</zIndex>	   
-	</image>	
-	
 	 <image name="barra" extra="true">
 			<tile>false</tile>
-			 <origin>0 0</origin>
-             <pos>0.0 0.0</pos>
-			 <size>1 0.2</size>
+			 <origin>0.5 0.5</origin>
+             <pos>0.225 0.12</pos>
+			 <size>0.55 0.15</size>
 			<path>./subsets/carosello/linee2.png</path>
 			<color>${accentColor2}</color>
-			<zIndex>3</zIndex>				
+			<zIndex>3</zIndex>	
 		</image>
+		
+		<image name="line" extra="true">
+			<tile>true</tile>
+			<size>0.52 0.002</size>
+			<pos>0.50 0.10</pos>
+			<path>./tema/images/white.png</path>
+			 <color>${accentColor2t}</color>
+			<zIndex>2</zIndex>				
+		</image>
+	
+	<image name="line2" extra="true">
+			<tile>true</tile>
+			<size>0.53 0.002</size>
+			<pos>0.49 0.145</pos>
+			<path>./tema/images/white.png</path>
+			 <color>${accentColor2t}</color>
+			<zIndex>2</zIndex>				
+		</image>
+	
+	<image name="line3" extra="true">
+			<tile>true</tile>
+			<size>0.54 0.002</size>
+			<pos>0.48 0.19</pos>
+			<path>./tema/images/white.png</path>
+			 <color>${accentColor2t}</color>
+			<zIndex>2</zIndex>				
+		</image>
+	
 </view> 
 
 <!-- lista giochi sfondo viste detailed,video,gamecarousel-->   
@@ -348,24 +357,24 @@
          <origin>0.5 0.5</origin>
          <pos>0.76 0.65</pos>
          <maxSize>0.42 0.42</maxSize>
-         <delay>3</delay>
+         <delay>1</delay>
          <zIndex>3</zIndex>         
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
          <showSnapshotDelay>true</showSnapshotDelay>
       </video>         
    </view>
 </feature>
+
 <view name="detailed,video,gamecarousel">
       <!-- rating gioco-->	
       <rating name="md_rating">
-         <origin>0.5 0.5</origin>
-         <zIndex>5</zIndex>       
+         <origin>0.5 0.5</origin>     
          <pos>0.875 0.16</pos>
          <size>0.03 0.03</size>
-         <zIndex>3</zIndex>
          <filledPath>./tema/images/star_full.svg</filledPath>
          <unfilledPath>./tema/images/star_hollow.svg</unfilledPath>
 		 <color>${accentColor}</color>
+		 <zIndex>3</zIndex>
     </rating>
 	<!-- testo introduttivo sviluppatore gioco-->	
       <text name="md_lbl_developer">
@@ -428,7 +437,7 @@
 		<text name="gridtile">
 			<color>ffffff80</color>
 			<backgroundColor>00000000</backgroundColor>
-			<fontSize>0.025</fontSize>
+			<fontSize>0.020</fontSize>
 			<fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
 			 <forceUppercase>1</forceUppercase>
 			<alignment>center</alignment>
@@ -437,6 +446,7 @@
 		<text name="gridtile_selected">
 			<color>000000</color>
 			<glowColor>${accentColor}</glowColor>
+			<fontSize>0.025</fontSize>
 			<forceUppercase>1</forceUppercase>
 			<glowSize>2</glowSize>
 		</text>
@@ -455,17 +465,6 @@
 			<backgroundImage>./tema/images/bg.png</backgroundImage>
 			<backgroundColor>000000</backgroundColor>
 		</gridtile>
-		<!-- layout nome gioco-->	
-		<!--<text name="md_name">
-			<pos>0.25 0.05</pos>
-			<size>0.48 0.05</size>
-			<origin>0.5 0</origin>
-		    <fontPath>./tema/fonts/RobotoRegular.ttf</fontPath>
-            <fontSize>0.035</fontSize>
-            <forceUppercase>1</forceUppercase>
-			<color>000000</color>
-			<backgroundColor>${accentColor}</backgroundColor>
-		</text> -->
 		<!-- layout descrizione gioco -->	
 		<text name="md_description">
 			<color>ffffff</color>

@@ -6,6 +6,7 @@
 	<include name="wheel">./subsets/carosello/wheel.xml</include>
 	<include name="vertical">./subsets/carosello/vertical.xml</include>
 	<include name="horizontal">./subsets/carosello/horizontal.xml</include>
+	<include name="Controllers">./subsets/carosello/system.xml</include>
 	</subset>
 
 	<subset name="Carousel images source" appliesTo="gamecarousel">
@@ -28,7 +29,6 @@
 	<include name="black">./subsets/sfondi/bg3.xml</include>
 	<include name="Fullscreen video">./subsets/sfondi/video.xml</include>
 	<include name="Arcade video frame">./subsets/sfondi/arcade.xml</include>
-	<include name="Controllers">./subsets/sfondi/system.xml</include>
 	</subset>
 
 
@@ -56,6 +56,12 @@
 	<include name="animations">./subsets/animazioni/animations.xml</include>
 	<include name="No animations">./subsets/animazioni/noanimations.xml</include>
 	</subset>
+	
+<!--anteprima video nella vista grid -->
+	<subset subset="video" name="Video on grid">
+	<include name="No">./subsets/grid/novideo.xml</include>
+	<include name="Yes">./subsets/grid/video.xml</include>
+	</subset> 
 	
 </theme>
 
