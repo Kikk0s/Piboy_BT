@@ -15,27 +15,32 @@
      <color>ffffffa0</color>
       <effect>none</effect>
       <zIndex>4</zIndex>
+	  <default>./subsets/sfondi/novideo.mp4</default>
     </video>
+	
     <video name="backgroundvideoFull" extra="true" ifHelpPrompts="false">
       <pos>0.5 0.5</pos>
       <minSize>1 1</minSize>
     </video>
- 	  
+	
     <image name="CenterFade" extra="true">
       <color>00000099</color>
     </image>
-
-<video name="backgroundvideo" extra="true">
- <visible>false</visible>
+	
+	<video name="backgroundvideo" extra="true">
+	  <visible>false</visible>
     </video>
+	
     <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
- <visible>false</visible>
+	  <visible>false</visible>
     </video>
-<image name="arcadeled" extra="true">
+	<image name="arcadeled" extra="true">
       <visible>false</visible>
     </image>
-	  <image name="arcadestrip" extra="true">
+	
+	<image name="arcadestrip" extra="true">
       <visible>false</visible>
-    </image>	
+    </image>
+	
   </view>
 </theme>

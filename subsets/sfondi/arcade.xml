@@ -8,20 +8,19 @@
     <image name="background" extra="true">
       <color>000000ff</color>
     </image>
+	
     <video name="backgroundvideo" extra="true">
       <path>{random}</path>
       <delay>1</delay>
-     <color>ffffffa0</color>
+      <color>ffffffa0</color>
       <effect>none</effect>
       <zIndex>2</zIndex>
+	  <default>./subsets/sfondi/novideo.mp4</default>
     </video>
-  
+	
     <image name="CenterFade" extra="true">
       <color>00000099</color>
-    </image> 
-
-
-
-
+    </image>
+	
   </view>
 </theme>
