@@ -111,7 +111,24 @@
       <path>./subsets/sfondi/arcadestrip.png</path>
 	 <!--<color>${accentColor2}</color> -->
       <zIndex>5</zIndex>
-    </image>			
+    </image>	
+
+  <image name="consoleled" extra="true">
+      <tile>false</tile>
+      <path>./subsets/sfondi/consoleled.png</path>
+	  <color>${accentColor2}</color>
+	  <!--<glowColor>${accentColor}</glowColor>
+      <glowSize>3</glowSize>
+      <glowOffset>1 1</glowOffset> -->
+      <zIndex>99</zIndex>
+    </image>
+
+  <image name="consolestrip" extra="true">
+      <tile>false</tile>
+      <path>./subsets/sfondi/consolestrip.png</path>
+	 <!--<color>${accentColor2}</color> -->
+      <zIndex>5</zIndex>
+    </image>		
 	
 <!-- barra suggerimenti in basso -->
    <helpsystem name="help">

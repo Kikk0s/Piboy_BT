@@ -23,11 +23,25 @@
     </image>
 	
 	<image name="arcadestrip" extra="true">
-      <zIndex>99</zIndex>
+      <zIndex>98</zIndex>
 	  <storyboard>
 			<animation property="opacity" from="0.05" to="1" duration="1000" mode="easeIn"/>
 	  </storyboard>
     </image>	
+	
+<image name="consoleled" extra="true">
+      <zIndex>99</zIndex>
+	  <storyboard>
+			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn"/>
+	  </storyboard>
+    </image>
+	
+	<image name="consolestrip" extra="true">
+      <zIndex>98</zIndex>
+	  <storyboard>
+			<animation property="opacity" from="0.05" to="1" duration="1000" mode="easeIn"/>
+	  </storyboard>
+    </image>
 	
 	<image name="controllers" extra="true">
       <zIndex>7</zIndex>

@@ -21,14 +21,11 @@
     <image name="CenterFade" extra="true">
       <color>00000099</color>
     </image>
-	
-		 <image name="consolestrip" extra="true">
-         <visible>false</visible>
-    </image>	
-
-  <image name="consoleled" extra="true">
-        <visible>false</visible>
+	<image name="arcadeled" extra="true">
+      <visible>false</visible>
     </image>
-	
+	  <image name="arcadestrip" extra="true">
+      <visible>false</visible>
+    </image>	
   </view>
 </theme>

@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
+
 <view name="system">
      <image name="background" extra="true">
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
       <tile>true</tile>
-      <path>./subsets/sfondi/bg.png</path>
+      <path>./subsets/sfondi/holesv3.png</path>
       <zIndex>2</zIndex>
     </image>
-	<image name="arcadeled" extra="true">
+<image name="arcadeled" extra="true">
       <visible>false</visible>
-    </image>	
+    </image>
 	  <image name="arcadestrip" extra="true">
       <visible>false</visible>
-    </image>	
-	 <video name="backgroundvideo" extra="true">
+    </image>
+ <video name="backgroundvideo" extra="true">
        <visible>false</visible>
     </video>
     <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
@@ -28,6 +29,13 @@
     </image> 
     <image name="arcadevideo" extra="true">
       <visible>false</visible>
+    </image>
+	 <image name="consolestrip" extra="true">
+         <visible>false</visible>
     </image>	
-</view>		 
+
+  <image name="consoleled" extra="true">
+        <visible>false</visible>
+    </image>	
+</view>		
 </theme>

@@ -4,11 +4,11 @@
 
 <view name="system">
      <image name="background" extra="true">
-      <size>1 1</size>
+      <size>2 2</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
       <tile>true</tile>
-      <path>./subsets/sfondi/bg2.png</path>
+      <path>./subsets/sfondi/holes.png</path>
       <zIndex>2</zIndex>
     </image>	
 	<image name="arcadeled" extra="true">
@@ -16,8 +16,8 @@
     </image>
 	  <image name="arcadestrip" extra="true">
       <visible>false</visible>
-    </image>	
-	 <video name="backgroundvideo" extra="true">
+    </image>
+ <video name="backgroundvideo" extra="true">
        <visible>false</visible>
     </video>
     <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
@@ -30,5 +30,12 @@
     <image name="arcadevideo" extra="true">
       <visible>false</visible>
     </image>	
-</view>		
+	 <image name="consolestrip" extra="true">
+         <visible>false</visible>
+    </image>	
+
+  <image name="consoleled" extra="true">
+        <visible>false</visible>
+    </image>	
+</view>			 
 </theme>

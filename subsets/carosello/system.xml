@@ -90,6 +90,14 @@
 	  <image name="arcadestrip" extra="true">
       <visible>false</visible>
     </image>	
+	
+	 <image name="consolestrip" extra="true">
+         <visible>false</visible>
+    </image>	
+
+  <image name="consoleled" extra="true">
+        <visible>false</visible>
+    </image>	
 	<!-- loghi emulatori -->
 <image name="logo">
 			<visible>false</visible>

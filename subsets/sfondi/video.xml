@@ -42,5 +42,13 @@
       <visible>false</visible>
     </image>
 	
+	 <image name="consolestrip" extra="true">
+         <visible>false</visible>
+    </image>	
+
+  <image name="consoleled" extra="true">
+        <visible>false</visible>
+    </image>
+	
   </view>
 </theme>

@@ -21,14 +21,16 @@
 
 <!--Sfondi -->
 	<subset subset="systemview" name="Custom Background">
-	<include name="hexagon">./subsets/sfondi/bg.xml</include>
-	<include name="holes">./subsets/sfondi/bg1.xml</include>
-	<include name="holes V2">./subsets/sfondi/bg4.xml</include>
-	<include name="holes V3">./subsets/sfondi/bg5.xml</include>
-	<include name="metal">./subsets/sfondi/bg2.xml</include>
-	<include name="black">./subsets/sfondi/bg3.xml</include>
+	<include name="hexagon">./subsets/sfondi/hexagon.xml</include>
+	<include name="carbon">./subsets/sfondi/carbon.xml</include>
+	<include name="holes">./subsets/sfondi/holes.xml</include>
+	<include name="holes V2">./subsets/sfondi/holesv2.xml</include>
+	<include name="holes V3">./subsets/sfondi/holesv3.xml</include>
+	<include name="metal">./subsets/sfondi/metal.xml</include>
+	<include name="black">./subsets/sfondi/black.xml</include>
 	<include name="Fullscreen video">./subsets/sfondi/video.xml</include>
 	<include name="Arcade video frame">./subsets/sfondi/arcade.xml</include>
+	<include name="Console video frame">./subsets/sfondi/console.xml</include>
 	</subset>
 
 

@@ -65,6 +65,16 @@
       <pos>0.18 0</pos>
       <origin>0 0</origin>
     </image>		
+ <image name="consoleled" extra="true">
+      <size>1 1</size>
+      <pos>0.18 0</pos>
+      <origin>0 0</origin>
+    </image>
 
+  <image name="consolestrip" extra="true">
+      <size>1 1</size>
+      <pos>0.18 0</pos>
+      <origin>0 0</origin>
+    </image>		
 </view>	
 </theme>
