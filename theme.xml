@@ -57,6 +57,10 @@
 			<color>${accentColor}</color>
 </menuTextSmall>
 
+<menuTextEdit name="menutextedit">
+      <inactive>./tema/images/bg.png</inactive>
+      <active>./tema/images/bg.png</active>
+</menuTextEdit>
 
 <!-- Menu batocera sfondo--> 
     <menuBackground name="menubg">
