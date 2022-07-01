@@ -89,6 +89,8 @@
 <!-- informazioni numero di rom presenti in un sistema -->
 <text name="systemInfo">     
 		 <color>${accentColor}</color>
+		 <glowColor>00000020</glowColor>
+		 <glowSize>2</glowSize>
 		</text> 
 <!-- grafiche in aggiunta sulla home -->
 <image name="systeminfosfondo" extra="true">
@@ -392,8 +394,6 @@
          <origin>0.5 0.5</origin>     
          <pos>0.875 0.16</pos>
          <size>0.03 0.03</size>
-         <filledPath>./tema/images/star_full.svg</filledPath>
-         <unfilledPath>./tema/images/star_hollow.svg</unfilledPath>
 		 <color>${accentColor}</color>
 		 <zIndex>3</zIndex>
     </rating>
@@ -503,8 +503,6 @@
          <pos>0.875 0.35</pos>
          <size>0.03 0.03</size>
          <zIndex>3</zIndex>
-         <filledPath>./tema/images/star_full.svg</filledPath>
-         <unfilledPath>./tema/images/star_hollow.svg</unfilledPath>
 		 <color>${accentColor}</color>
     </rating>
 	<!-- testo introduttivo sviluppatore gioco-->	

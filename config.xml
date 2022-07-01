@@ -27,6 +27,7 @@
 	<include name="holes V2">./subsets/sfondi/holesv2.xml</include>
 	<include name="holes V3">./subsets/sfondi/holesv3.xml</include>
 	<include name="metal">./subsets/sfondi/metal.xml</include>
+	<include name="armor">./subsets/sfondi/armor.xml</include>
 	<include name="black">./subsets/sfondi/black.xml</include>
 	<include name="Fullscreen video">./subsets/sfondi/video.xml</include>
 	<include name="Arcade video frame">./subsets/sfondi/arcade.xml</include>
@@ -38,9 +39,12 @@
 	<subset subset="colorset" name="Color set">
 	<include name="Piboy">./subsets/colors/piboy.xml</include>
 	<include name="Orange Blue">./subsets/colors/orange_blue.xml</include>
+	<include name="Orange Gray">./subsets/colors/orange_gray.xml</include>
 	<include name="Sand Brown">./subsets/colors/sand_brown.xml</include>
 	<include name="Yellow Green">./subsets/colors/yellow_green.xml</include>
 	<include name="Yellow Gray">./subsets/colors/yellow_gray.xml</include>
+	<include name="Yellow Red">./subsets/colors/yellow_red.xml</include>
+	<include name="light blue purple">./subsets/colors/lightblue_purple.xml</include>
 	<include name="White Blue">./subsets/colors/white_blue.xml</include>
 	<include name="White Red">./subsets/colors/white_red.xml</include>
 	<include name="White Gray">./subsets/colors/white_gray.xml</include>
@@ -58,6 +62,14 @@
 	<include name="animations">./subsets/animazioni/animations.xml</include>
 	<include name="No animations">./subsets/animazioni/noanimations.xml</include>
 	</subset>
+	
+<!--stile rating -->
+	<subset subset="rating" name="Rating Style">
+	<include name="Star">./subsets/rating/star.xml</include>
+	<include name="Hexagon">./subsets/rating/hexagon.xml</include>
+	<include name="Circle">./subsets/rating/circle.xml</include>
+	<include name="Heart">./subsets/rating/heart.xml</include>
+	</subset> 	
 	
 <!--anteprima video nella vista grid -->
 	<subset subset="video" name="Video on grid">

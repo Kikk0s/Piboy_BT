@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+<view name="detailed,video,gamecarousel">
+      <!-- rating gioco-->	
+      <rating name="md_rating">
+          <filledPath>./subsets/rating/star_full.svg</filledPath>
+         <unfilledPath>./subsets/rating/star_hollow.svg</unfilledPath>
+    </rating>
+</view>
+<view name="grid">
+      <rating name="md_rating">
+         <filledPath>./subsets/rating/star_full.svg</filledPath>
+         <unfilledPath>./subsets/rating/star_hollow.svg</unfilledPath>
+    </rating>
+	</view>	
+	 
+</theme>
