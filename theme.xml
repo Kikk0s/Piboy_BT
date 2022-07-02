@@ -90,7 +90,7 @@
 <text name="systemInfo">     
 		 <color>${accentColor}</color>
 		 <glowColor>00000020</glowColor>
-		 <glowSize>2</glowSize>
+		 <glowSize>1</glowSize>
 		</text> 
 <!-- grafiche in aggiunta sulla home -->
 <image name="systeminfosfondo" extra="true">
