@@ -9,7 +9,7 @@
 		<origin>0 0</origin>
         <logoAlignment>left</logoAlignment>         
         <size>0.6 0.9</size>
-        <logoScale>2.5</logoScale>    
+        <logoScale>2.0</logoScale>    
         <logoSize>0.2 0.1</logoSize>
         <color>00000000</color>
         <maxLogoCount>3</maxLogoCount>
